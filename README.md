@@ -1,6 +1,6 @@
 <h1 align='center' >Grupo de estudio</h1>
 
-## Requisitos
+## Requisitos Tecnicos
 
 ```
 - HTML
@@ -12,6 +12,15 @@
 - Git Convencionales Sintaxis
 ```
 
+## Requisitos Software
+
+```
+- Visual Studio Code
+- Eslint (Extensión)
+- Prettier (Extensión)
+- ES7 React (Extensión)
+```
+
 ## Como arrancar el proyecto
 
 ```
@@ -20,3 +29,7 @@
 * npm run dev o pnpm run dev o yarn dev
 * Ingresar a la url ➜  Local:   http://localhost:5173/
 ```
+
+## PREVIEW
+
+https://preview-ui-three.vercel.app/
