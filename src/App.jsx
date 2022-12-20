@@ -3,7 +3,7 @@ const App = () => {
 		<div
 			style={{
 				alignItems: 'center',
-				background: 'gray',
+				background: 'red',
 				display: 'flex',
 				height: '100vh',
 				justifyContent: 'center',
