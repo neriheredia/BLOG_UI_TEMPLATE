@@ -4,18 +4,10 @@ import styles from './Left.module.css';
 function Left() {
 	return (
 		<div className={styles.left}>
-			<NavLink to=''>
-				<i className='fa-brands fa-square-facebook'></i>
-			</NavLink>
-			<NavLink to=''>
-				<i className='fa-brands fa-square-instagram'></i>
-			</NavLink>
-			<NavLink to=''>
-				<i className='fa-brands fa-square-facebook'></i>
-			</NavLink>
-			<NavLink to=''>
-				<i className='fa-brands fa-square-twitter'></i>
-			</NavLink>
+			<NavLink to='' className='fa-brands fa-square-facebook'></NavLink>
+			<NavLink to='' className='fa-brands fa-square-instagram'></NavLink>
+			<NavLink to='' className='fa-brands fa-square-facebook'></NavLink>
+			<NavLink to='' className='fa-brands fa-square-twitter'></NavLink>
 		</div>
 	);
 }
