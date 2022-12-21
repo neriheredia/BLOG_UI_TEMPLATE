@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import styles from "./Right.module.css";
+import styles from './Right.module.css';
 function Rigth() {
 	return (
 		<div className={styles.right}>
