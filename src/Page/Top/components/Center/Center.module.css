@@ -1,0 +1,8 @@
+.center {
+	display: flex;
+	gap: 10px;
+}
+
+.center :hover{
+	color:gray;
+}
