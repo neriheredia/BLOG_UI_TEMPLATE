@@ -5,9 +5,7 @@ function Rigth() {
 		<div className={styles.right}>
 			<NavLink to=''>LOGIN</NavLink>
 			<NavLink to=''>REGISTER</NavLink>
-			<NavLink to=''>
-				<i className='fa-solid fa-magnifying-glass'></i>
-			</NavLink>
+			<NavLink to='' className='fa-solid fa-magnifying-glass'></NavLink>
 		</div>
 	);
 }
