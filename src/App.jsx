@@ -1,23 +1,17 @@
+import { BrowserRouter } from "react-router-dom";
+import Header from "./Page/Header/Header";
+import Home from "./Page/Home/Home";
+import Top from "./Page/Top/Top";
+
 const App = () => {
 	return (
-		<div
-			style={{
-				alignItems: 'center',
-				background: 'red',
-				display: 'flex',
-				height: '100vh',
-				justifyContent: 'center',
-			}}
-		>
-			<h1
-				style={{
-					color: 'white',
-					fontSize: '3rem',
-				}}
-			>
-				Bienvenidos al grupo de estudio!
-			</h1>
-		</div>
+		<BrowserRouter>
+			<Top/>
+			<hr />
+			<Header/>
+			<hr />
+			<Home/>
+		</BrowserRouter>
 	);
 };
 
