@@ -1,16 +1,16 @@
-import { BrowserRouter } from "react-router-dom";
-import Header from "./Page/Header/Header";
-import Home from "./Page/Home/Home";
-import Top from "./Page/Top/Top";
+import { BrowserRouter } from 'react-router-dom';
+import Header from './Page/Header/Header';
+import Home from './Page/Home/Home';
+import Top from './Page/Top/Top';
 
 const App = () => {
 	return (
 		<BrowserRouter>
-			<Top/>
+			<Top />
 			<hr />
-			<Header/>
+			<Header />
 			<hr />
-			<Home/>
+			<Home />
 		</BrowserRouter>
 	);
 };
