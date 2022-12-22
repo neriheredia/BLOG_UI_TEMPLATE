@@ -1,6 +1,6 @@
-import Center from './components/Center/Center';
-import Left from './components/Left/Left';
-import Rigth from './components/Right/Right';
+import Center from './Center/Center';
+import Left from './Left/Left';
+import Rigth from './Right/Right';
 import styles from './Top.module.css';
 
 function Top() {

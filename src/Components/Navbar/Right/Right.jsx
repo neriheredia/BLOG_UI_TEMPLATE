@@ -6,6 +6,7 @@ function Rigth() {
 			<NavLink to=''>LOGIN</NavLink>
 			<NavLink to=''>REGISTER</NavLink>
 			<NavLink to='' className='fa-solid fa-magnifying-glass'></NavLink>
+			{/* topIcon fab fa-twitter-square */}
 		</div>
 	);
 }
