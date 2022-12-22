@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styles from './Center.module.css';
+
 function Center() {
 	return (
 		<div className={styles.center}>
@@ -10,4 +11,5 @@ function Center() {
 		</div>
 	);
 }
+
 export default Center;

@@ -12,4 +12,5 @@ function Top() {
 		</div>
 	);
 }
+
 export default Top;
