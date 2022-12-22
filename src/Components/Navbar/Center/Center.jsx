@@ -4,7 +4,7 @@ function Center() {
 	return (
 		<div className={styles.center}>
 			<NavLink to=''>HOME</NavLink>
-			<NavLink to=''>ABAOUT</NavLink>
+			<NavLink to=''>ABOUT</NavLink>
 			<NavLink to=''>CONTACT</NavLink>
 			<NavLink to=''>WRITE</NavLink>
 		</div>

@@ -1,7 +1,7 @@
 import Center from './Center/Center';
 import Left from './Left/Left';
 import Rigth from './Right/Right';
-import styles from './Top.module.css';
+import styles from './Navbar.module.css';
 
 function Top() {
 	return (
