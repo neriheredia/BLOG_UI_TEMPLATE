@@ -1,11 +1,11 @@
 .top {
 	display: flex;
 	flex-direction: row;
+	font-weight: 300;
 	font-family: Josefin Sans, sans-serif;
 	justify-content: space-around;
 	position: sticky;
 	padding: 10px;
-	font-weight: 300;
 }
 
 a {
