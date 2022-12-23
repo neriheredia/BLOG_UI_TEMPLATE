@@ -15,7 +15,7 @@ const App = () => {
 					fontSize: '3rem',
 				}}
 			>
-				Bienvenidos al grupo de estudio!
+				Bienvenidos al grupo de estudio perri!
 			</h1>
 		</div>
 	);
