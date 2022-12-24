@@ -1,23 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Navbar from './Components/Navbar/Navbar';
+
 const App = () => {
 	return (
-		<div
-			style={{
-				alignItems: 'center',
-				background: 'red',
-				display: 'flex',
-				height: '100vh',
-				justifyContent: 'center',
-			}}
-		>
-			<h1
-				style={{
-					color: 'white',
-					fontSize: '3rem',
-				}}
-			>
-				Bienvenidos al grupo de estudio!
-			</h1>
-		</div>
+		<BrowserRouter>
+			<Navbar />
+			<Routes>
+				<Route path='/' element={<Home />} />
+			</Routes>
+		</BrowserRouter>
 	);
 };
 
