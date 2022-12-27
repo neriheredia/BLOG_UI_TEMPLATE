@@ -1,14 +1,14 @@
 import Center from './Center/Center';
 import Left from './Left/Left';
 import Rigth from './Right/Right';
-import styles from './Navbar.module.css';
+import './Navbar.css';
 
 function Top() {
 	return (
-		<div className={styles.top}>
-			<Left className={styles.left} />
-			<Center className={styles.center} />
-			<Rigth className={styles.rigth} />
+		<div className='top'>
+			<Left className='left' />
+			<Center className='center' />
+			<Rigth className='rigth' />
 		</div>
 	);
 }

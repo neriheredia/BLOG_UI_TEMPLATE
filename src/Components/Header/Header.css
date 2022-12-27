@@ -1,0 +1,32 @@
+.blog {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+}
+
+.header{
+    margin-top: 60px;
+}
+
+.img {
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    object-fit: cover;
+}
+
+.reactNode {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lora,serif;
+    color: #444;
+}
+
+/* No esta quedando como quiero, el navbar esta decentrado mas a la izquierda, me di cuenta al ahcer el header, lo que hay lo estoy sacando del vercel de muestra */

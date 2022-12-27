@@ -33,3 +33,7 @@
 ## PREVIEW
 
 https://preview-ui-three.vercel.app/
+
+## Vercel
+
+https://blog-ui-template.vercel.app/

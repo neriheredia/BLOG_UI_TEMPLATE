@@ -1,0 +1,29 @@
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.top {
+	display: flex;
+	flex-direction: row;
+	font-weight: 300;
+	font-family: Josefin Sans, sans-serif;
+	justify-content: space-around;
+	position: sticky;
+	padding: 10px;
+}
+
+.left, .rigth {
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    flex-grow: 6;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
