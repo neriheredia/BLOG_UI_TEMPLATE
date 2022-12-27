@@ -6,9 +6,9 @@ import './Navbar.css';
 function Top() {
 	return (
 		<div className='top'>
-			<Left className='left' />
-			<Center className='center' />
-			<Rigth className='rigth' />
+			<Left />
+			<Center />
+			<Rigth />
 		</div>
 	);
 }

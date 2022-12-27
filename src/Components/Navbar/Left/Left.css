@@ -1,0 +1,8 @@
+
+.left {
+	align-items: center;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	width: 25%;
+}

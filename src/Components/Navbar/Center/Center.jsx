@@ -1,13 +1,13 @@
 import { NavLink } from 'react-router-dom';
-import styles from './Center.module.css';
+import './Center.css';
 
 function Center() {
 	return (
-		<div className={styles.center}>
-			<NavLink to=''>HOME</NavLink>
-			<NavLink to=''>ABOUT</NavLink>
-			<NavLink to=''>CONTACT</NavLink>
-			<NavLink to=''>WRITE</NavLink>
+		<div className='center'>
+			<NavLink to='/'>HOME</NavLink>
+			<NavLink to='/about'>ABOUT</NavLink>
+			<NavLink to='/contact'>CONTACT</NavLink>
+			<NavLink to='/write'>WRITE</NavLink>
 		</div>
 	);
 }

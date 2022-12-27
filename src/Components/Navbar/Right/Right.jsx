@@ -1,12 +1,14 @@
 import { NavLink } from 'react-router-dom';
-import styles from './Right.module.css';
+import './Right.css';
+
 function Rigth() {
 	return (
-		<div className={styles.right}>
-			<NavLink to=''>LOGIN</NavLink>
-			<NavLink to=''>REGISTER</NavLink>
-			<NavLink to='' className='fa-solid fa-magnifying-glass'></NavLink>
+		<div className='right'>
+			<NavLink to='/login'>LOGIN</NavLink>
+			<NavLink to='/register'>REGISTER</NavLink>
+			<NavLink to='' className='topSearchIcon fas fa-search'></NavLink>
 		</div>
 	);
 }
+
 export default Rigth;
