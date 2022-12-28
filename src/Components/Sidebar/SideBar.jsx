@@ -4,13 +4,13 @@ import FollowUs from './FollowUs/FollowUs';
 import './SideBar.css';
 
 function SideBar() {
-  return (
-    <div className='sidebar'>
-      <AboutMe />
-      <Categories />
-      <FollowUs />
-    </div>
-  )
+	return (
+		<div className='sidebar'>
+			<AboutMe />
+			<Categories />
+			<FollowUs />
+		</div>
+	);
 }
 
-export default SideBar
+export default SideBar;
