@@ -1,3 +1,5 @@
 .posts {
-	width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }

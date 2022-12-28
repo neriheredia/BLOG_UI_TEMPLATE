@@ -4,6 +4,7 @@ a {
 }
 
 .top {
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	flex-direction: row;
 	font-weight: 300;
