@@ -4,7 +4,7 @@ import './Post.css';
 function Post(props) {
 	return (
 		<div className='post'>
-			<img src={props.image} alt='img' />
+			<img className='postimg' src={props.image} alt='img' />
 			<br />
 			<div className='info'>
 				<div className='div'>

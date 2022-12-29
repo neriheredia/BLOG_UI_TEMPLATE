@@ -1,28 +1,28 @@
 .blog {
-	position: absolute;
-	top: 20%;
 	font-size: 100px;
 }
 
 .header {
 	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	position:relative;
 }
 
 .img {
 	width: 100%;
 	height: 450px;
-	margin-top: 80px;
 	object-fit: cover;
 }
 
 .reactNode {
-	position: absolute;
-	top: 18%;
 	font-size: 20px;
 }
 
 .titles {
 	display: flex;
+	position: absolute;
+	top: 0;
 	flex-direction: column;
 	align-items: center;
 	font-family: Lora, serif;

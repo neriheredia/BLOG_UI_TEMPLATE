@@ -5,7 +5,7 @@ import './Home.css';
 
 function Home() {
 	return (
-		<div>
+		<div className='home'>
 			<Header />
 			<div className='post-sidebar'>
 				<Posts />

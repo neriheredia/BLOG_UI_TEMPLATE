@@ -1,6 +1,5 @@
 a {
 	color: rgb(34, 34, 34);
-	text-decoration: none;
 }
 
 .top {
@@ -14,6 +13,7 @@ a {
 	padding: 10px;
 	top: 0;
 	width: 100%;
+	z-index: 1;
 }
 
 .top :hover {

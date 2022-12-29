@@ -1,6 +1,8 @@
+import './FollowUs.css'
+
 function FollowUs() {
 	return (
-		<div>
+		<div className='followus'>
 			<span className='titlesside'>FollowUs</span>
 		</div>
 	);
