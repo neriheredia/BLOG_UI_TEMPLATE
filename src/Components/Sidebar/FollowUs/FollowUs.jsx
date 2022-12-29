@@ -1,4 +1,4 @@
-import './FollowUs.css'
+import './FollowUs.css';
 
 function FollowUs() {
 	return (
