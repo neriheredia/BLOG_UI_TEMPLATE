@@ -1,25 +1,31 @@
 .sidebar {
+	align-items: center;
+	background-color: #ebebeb;
+	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	border-radius: 10px;
-	width: 300px;
 	height: fit-content;
 	margin: 20px;
 	padding-bottom: 30px;
-	background-color: #ebebeb;
+	width: 300px;
 }
 
 .titlesside {
-	margin: 10px;
-	padding: 5px;
-	width: 90%;
+	color: #222;
 	border-top: solid 1px #a7a4a4;
 	border-bottom: solid 1px #a7a4a4;
-	text-align: center;
 	font-family: Varela Round, sans-serif;
 	font-size: 12px;
-	line-height: 19px;
-	color: #222;
 	font-weight: 600;
+	line-height: 19px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	width: 90%;
+}
+
+@media (max-width: 700px){
+	.sidebar {
+		width: 80%;
+	}
 }

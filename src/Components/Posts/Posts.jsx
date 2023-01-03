@@ -5,9 +5,10 @@ import './Posts.css';
 function Posts() {
 	return (
 		<div className='posts'>
-			{post.map((post, key) => (
+			{post.map((post) => (
 				<Post
-					key={key}
+					key={post.id}
+					id={post.id}
 					image={post.image}
 					category={post.category}
 					overview={post.overview}

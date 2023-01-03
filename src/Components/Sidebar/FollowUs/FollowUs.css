@@ -1,6 +1,12 @@
 .followus {
+	align-items: center;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	width: 100%;
+}
+
+.followlinks{
+	display: flex;
+	gap: 15px;
+	margin-top: 15px;
 }

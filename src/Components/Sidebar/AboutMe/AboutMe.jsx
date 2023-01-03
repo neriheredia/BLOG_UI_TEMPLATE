@@ -2,7 +2,7 @@ import './AboutMe.css';
 
 function AboutMe() {
 	return (
-		<div className='about'>
+		<div className='aboutme'>
 			<span className='titlesside'>ABOUT ME</span>
 
 			<img

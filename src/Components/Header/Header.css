@@ -3,16 +3,17 @@
 }
 
 .header {
-	margin-top: 60px;
 	display: flex;
 	justify-content: center;
+	margin-top: 60px;
 	position: relative;
 }
 
 .img {
-	width: 100%;
 	height: 450px;
+	margin-top: 80px;
 	object-fit: cover;
+	width: 100%;
 }
 
 .reactNode {
@@ -20,11 +21,11 @@
 }
 
 .titles {
+	align-items: center;
+	color: #444;
 	display: flex;
+	flex-direction: column;
+	font-family: Lora, serif;
 	position: absolute;
 	top: 0;
-	flex-direction: column;
-	align-items: center;
-	font-family: Lora, serif;
-	color: #444;
 }
