@@ -1,0 +1,15 @@
+.home {
+	display: flex;
+}
+
+.link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.posts {
+	display: flex;
+	flex: 9;
+	flex-wrap: wrap;
+	margin: 20px;
+}

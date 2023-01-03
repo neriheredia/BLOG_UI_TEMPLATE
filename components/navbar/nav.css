@@ -2,20 +2,20 @@
 }
 
 .link {
-	text-decoration: none;
 	color: inherit;
+	text-decoration: none;
 }
 
 .top {
-	width: 100%;
-	height: 50px;
+	align-items: center;
 	background-color: #fff;
+	display: flex;
+	height: 50px;
+	font-family: Josefin Sans, sans-serif;
 	position: sticky;
 	top: 0;
-	display: flex;
-	align-items: center;
+	width: 100%;
 	z-index: 999;
-	font-family: Josefin Sans, sans-serif;
 }
 
 .topCenter {
@@ -23,16 +23,16 @@
 }
 
 .topIcon {
+	cursor: pointer;
+	color: #444;
 	font-size: 20px;
 	margin-right: 10px;
-	color: #444;
-	cursor: pointer;
 }
 
 .topLeft {
-	flex: 3;
-	display: flex;
 	align-items: center;
+	display: flex;
+	flex: 3;
 	justify-content: center;
 }
 

@@ -27,7 +27,7 @@
 * npm install o pnpm install o yarn
 * npm run prepare o pnpm run prepare o yarn prepare
 * npm run dev o pnpm run dev o yarn dev
-* Ingresar a la url ➜  Local:   http://localhost:5173/
+* Ingresar a la url ➜  Local:
 ```
 
 ## PREVIEW
