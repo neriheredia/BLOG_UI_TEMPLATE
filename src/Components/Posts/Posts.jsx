@@ -5,7 +5,7 @@ import './Posts.css';
 function Posts() {
 	return (
 		<div className='posts'>
-			{post.map((post) => (
+			{post.map(post => (
 				<Post
 					key={post.id}
 					id={post.id}

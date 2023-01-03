@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import post from '../../constants/posts.json';
 import SideBar from '../../Components/Sidebar/SideBar';
 import './Detail.css';
-import '../../Components/Sidebar/SideBar.css'
+import '../../Components/Sidebar/SideBar.css';
 
 function Detail() {
 	const { id } = useParams();
@@ -24,15 +24,15 @@ function Detail() {
 				<p className='detailtext'>
 					{' '}
 					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea possimus
-					quo incidunt nulla recusandae commodi delectus maiores! Dolorum, facilis
-					maiores a iure saepe, adipisci libero cum, cumque tempore quam esse!
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sit
-					atque voluptatibus dolore rerum pariatur sequi cumque omnis id,
-					distinctio amet quas maxime sapiente odio tempore mollitia eligendi
-					numquam repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing
-					elit. Error voluptatibus consequuntur similique cumque officia
-					laudantium est veniam ipsam tempore, asperiores eaque, tenetur enim
-					eligendi eveniet voluptatum odio impedit sunt ipsum.
+					quo incidunt nulla recusandae commodi delectus maiores! Dolorum,
+					facilis maiores a iure saepe, adipisci libero cum, cumque tempore quam
+					esse! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Explicabo sit atque voluptatibus dolore rerum pariatur sequi cumque
+					omnis id, distinctio amet quas maxime sapiente odio tempore mollitia
+					eligendi numquam repudiandae. Lorem ipsum dolor sit amet consectetur
+					adipisicing elit. Error voluptatibus consequuntur similique cumque
+					officia laudantium est veniam ipsam tempore, asperiores eaque, tenetur
+					enim eligendi eveniet voluptatum odio impedit sunt ipsum.
 				</p>
 			</div>
 			<div className='detailmargin sidebar'>

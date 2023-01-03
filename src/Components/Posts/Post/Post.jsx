@@ -2,10 +2,9 @@ import { NavLink } from 'react-router-dom';
 import './Post.css';
 
 function Post(props) {
-
 	return (
 		<div className='post'>
-			<NavLink className='title' to={'/post/'+ props.id }>
+			<NavLink className='title' to={'/post/' + props.id}>
 				<img className='postimg' src={props.image} alt='img' />
 				<br />
 				<div className='info'>

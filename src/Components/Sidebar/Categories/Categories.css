@@ -5,13 +5,13 @@
 	width: 100%;
 }
 
-.links{
-    cursor: pointer;
+.links {
+	cursor: pointer;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
 	justify-content: center;
-    margin-top: 15px;
+	margin-top: 15px;
 	margin-bottom: 15px;
-    width: 60%;
+	width: 60%;
 }
