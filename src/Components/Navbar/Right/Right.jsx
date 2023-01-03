@@ -6,7 +6,7 @@ function Rigth() {
 		<div className='right'>
 			<NavLink to='/login'>LOGIN</NavLink>
 			<NavLink to='/register'>REGISTER</NavLink>
-			<NavLink to='' className='topSearchIcon fas fa-search'></NavLink>
+			<NavLink to='' className='topSearchIcon fas fa-search rigthcolor'></NavLink>
 		</div>
 	);
 }
