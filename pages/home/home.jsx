@@ -1,10 +1,14 @@
 import '../home/home.css';
-import Posts from '../../components/posts/posts.jsx';
+import Posts from '../../components/posts/posts';
 
-const Home = props => {
-	<div className='home'>
-		<Posts />
-	</div>;
+const Home = () => {
+	return (
+		<div className='home'>
+			<div className='posts'>
+				<Posts />
+			</div>
+		</div>
+	);
 };
 
 export default Home;
