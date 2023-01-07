@@ -8,7 +8,7 @@ const Nav = () => (
 			<i className='topIcon fab fa-pinterest-square'></i>
 			<i className='topIcon fab fa-twitter-square'></i>
 		</div>
-		<div>
+		<div className='topCenter'>
 			<ul className='topList'>
 				<li className='topListItem'>
 					<a className='link' href='/'>

@@ -1,5 +1,7 @@
 import '../home/home.css';
 import Posts from '../../components/posts/posts';
+import Sidebar from '../../components/sidebar/sidebar';
+import '../../components/sidebar/sidebar.css';
 
 const Home = () => {
 	return (
@@ -7,6 +9,7 @@ const Home = () => {
 			<div className='posts'>
 				<Posts />
 			</div>
+			<Sidebar />
 		</div>
 	);
 };

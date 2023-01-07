@@ -21,7 +21,7 @@ const Post = props => {
 				</div>
 				<span className='postTitle'>
 					<a className='link' href='/post/abc'>
-						<h1>{props.title}</h1>
+						{props.title}
 					</a>
 				</span>
 				<hr />
