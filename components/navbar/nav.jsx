@@ -26,7 +26,7 @@ const Nav = () => (
 					</a>
 				</li>
 				<li className='topListItem'>
-					<a className='link' href='/'>
+					<a className='link' href='/write'>
 						WRITE
 					</a>
 				</li>
