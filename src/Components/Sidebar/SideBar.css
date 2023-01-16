@@ -1,0 +1,31 @@
+.sidebar {
+	align-items: center;
+	background-color: #ebebeb;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	margin: 20px;
+	padding-bottom: 30px;
+	width: 300px;
+}
+
+.titlesside {
+	color: #222;
+	border-top: solid 1px #a7a4a4;
+	border-bottom: solid 1px #a7a4a4;
+	font-family: Varela Round, sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 19px;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	width: 90%;
+}
+
+@media (max-width: 700px) {
+	.sidebar {
+		width: 80%;
+	}
+}
