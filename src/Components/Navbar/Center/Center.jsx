@@ -6,7 +6,6 @@ function Center() {
 		<div className='center'>
 			<NavLink to='/'>HOME</NavLink>
 			<NavLink to='/about'>ABOUT</NavLink>
-			<NavLink to='/contact'>CONTACT</NavLink>
 			<NavLink to='/write'>WRITE</NavLink>
 		</div>
 	);
