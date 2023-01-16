@@ -2,10 +2,11 @@ import { NavLink } from 'react-router-dom';
 import './Right.css';
 
 function Rigth() {
+	const loged=true;
 	return (
 		<div className='right'>
-			<NavLink to='/login'>LOGIN</NavLink>
-			<NavLink to='/register'>REGISTER</NavLink>
+			{loged? <><NavLink to='/login'>LOGIN</NavLink>
+			<NavLink to='/register'>REGISTER</NavLink> </> : false}
 			<NavLink
 				to=''
 				className='topSearchIcon fas fa-search rigthcolor'
