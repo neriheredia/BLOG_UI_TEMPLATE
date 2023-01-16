@@ -9,14 +9,14 @@ import Login from './Pages/Login/Login';
 import Detail from './Pages/Detail/Detail';
 
 const App = () => {
-	// const user=false;
+	const user=true;
 	return (
 		<BrowserRouter>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/about' element={<About />} />
-				<Route path='/write' element={<Write />} />
+				<Route path='/write' element={user? <Write /> : <Register />} />
 				<Route path='/login' element={<Login />} />
 				<Route path='/register' element={<Register />} />
 				<Route path='/post/:id' element={<Detail />} />
