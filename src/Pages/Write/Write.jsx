@@ -13,7 +13,7 @@ function Write() {
 				<form action='' className='writeform'>
 					<div className='writetitle'>
 						<label htmlFor='fileid'>
-							<i className='writeIcon fas fa-plus'></i>
+							<i className="fas fa-plus"></i>
 						</label>
 						<input id='fileid' type='file' style={{ display: 'none' }} />
 						<input

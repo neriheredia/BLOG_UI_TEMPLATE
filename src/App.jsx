@@ -7,21 +7,26 @@ import Write from './Pages/Write/Write';
 import Register from './Pages/Register/Register';
 import Login from './Pages/Login/Login';
 import Detail from './Pages/Detail/Detail';
+import { createContext, useState } from 'react';
+
+export const context = createContext();
 
 const App = () => {
-	const user=true;
+	const [state, setState] = useState(false);
 	return (
+		<context.Provider value={{state,setState}}>
 		<BrowserRouter>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/about' element={<About />} />
-				<Route path='/write' element={user? <Write /> : <Register />} />
+				<Route path='/write' element={state? <Write /> :<Home />} />
 				<Route path='/login' element={<Login />} />
 				<Route path='/register' element={<Register />} />
 				<Route path='/post/:id' element={<Detail />} />
 			</Routes>
 		</BrowserRouter>
+		</context.Provider>
 	);
 };
 
