@@ -27,7 +27,7 @@
 	font-weight: 400;
 	font-size: 14px;
 	width: 80%;
-	color:rgb(92, 92, 92);
+	color: rgb(92, 92, 92);
 }
 
 .detailtitle {
@@ -60,8 +60,8 @@
 	margin: 20px;
 }
 
-.detailtext::first-letter{
+.detailtext::first-letter {
 	font-size: 18px;
-	color:rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
 	font-weight: bolder;
 }

@@ -11,10 +11,15 @@ function Rigth() {
 	return (
 		<div className='right'>
 			{state.state ? (
-				<>Hola Lea !
-					<img className='rigthimg' src="https://i.pinimg.com/736x/f9/db/5d/f9db5da23ee12c903f1a74dfb1447c21.jpg" alt="" />
-					<button className='rightbutton' onClick={()=>state.setState(false)}>
-						<i className="fas fa-sign-out-alt" />
+				<>
+					Hola Lea !
+					<img
+						className='rigthimg'
+						src='https://i.pinimg.com/736x/f9/db/5d/f9db5da23ee12c903f1a74dfb1447c21.jpg'
+						alt=''
+					/>
+					<button className='rightbutton' onClick={() => state.setState(false)}>
+						<i className='fas fa-sign-out-alt' />
 					</button>
 				</>
 			) : (

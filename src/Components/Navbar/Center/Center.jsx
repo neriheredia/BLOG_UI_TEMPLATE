@@ -4,12 +4,12 @@ import { context } from '../../../App';
 import './Center.css';
 
 function Center() {
-	const {state} = useContext(context);
+	const { state } = useContext(context);
 	return (
 		<div className='center'>
 			<NavLink to='/'>HOME</NavLink>
 			<NavLink to='/about'>ABOUT</NavLink>
-			{state? <NavLink to='/write'>WRITE</NavLink>:null}
+			{state ? <NavLink to='/write'>WRITE</NavLink> : null}
 		</div>
 	);
 }

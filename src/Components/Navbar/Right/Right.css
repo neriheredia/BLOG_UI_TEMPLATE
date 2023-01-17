@@ -10,16 +10,16 @@
 	color: #666;
 }
 
-.rigthimg{
+.rigthimg {
 	width: 30px;
 	object-fit: cover;
 }
 
-.rightbutton{
+.rightbutton {
 	border: none;
-	background-color:white;
+	background-color: white;
 }
 
-.rightbutton:hover{
+.rightbutton:hover {
 	cursor: pointer;
 }
