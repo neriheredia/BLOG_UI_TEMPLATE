@@ -1,19 +1,29 @@
 import Post from './Post/Post';
-import post from '../../constants/posts.json';
+import Loading from "../../utilities/Loading";
 import './Posts.css';
+import Get from "../../utilities/Get";
+import { useContext, useEffect, useState } from 'react';
+import { context } from '../../App';
+
 
 function Posts() {
+
+	const [state, setState] = useState(false)
+	const globalstate = useContext(context)
+	useEffect(() => {
+		Get(globalstate.categorie).then(data=> {setState(data); globalstate.setNews(data)});
+	}, [globalstate.categorie]);
+
+	if(!state) return <Loading />;
+	
 	return (
 		<div className='posts'>
-			{post.map(post => (
+			{state.data?.map(post => (
 				<Post
-					category={post.category}
-					image={post.image}
-					id={post.id}
+					author={post.title}
+					imageUrl={post.imageUrl}
 					key={post.id}
-					overview={post.overview}
-					time={post.time}
-					title={post.title}
+					id={post.id}
 				/>
 			))}
 		</div>

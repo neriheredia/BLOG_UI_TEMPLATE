@@ -5,9 +5,6 @@ import { context } from '../../../App';
 
 function Rigth() {
 	const state = useContext(context);
-	// useEffect(() => {
-	// 	console.log("");
-	// }, [state]);
 	return (
 		<div className='right'>
 			{state.state ? (

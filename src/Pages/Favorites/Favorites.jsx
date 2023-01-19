@@ -1,7 +1,7 @@
-import SideBar from '../../Components/Sidebar/SideBar';
-import './write.css';
 
-function Write() {
+import './Favorites.css';
+
+function Favorites() {
 	return (
 		<div className='writeconteiner'>
 			<div className='writee'>
@@ -37,9 +37,8 @@ function Write() {
 					</button>
 				</form>
 			</div>
-			<SideBar />
 		</div>
 	);
 }
 
-export default Write;
+export default Favorites;

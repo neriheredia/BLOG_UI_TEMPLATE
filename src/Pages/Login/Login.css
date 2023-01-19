@@ -1,34 +1,38 @@
 .login {
 	align-items: center;
 	background: linear-gradient(
-			rgba(255, 255, 255, 0.5),
-			rgba(255, 255, 255, 0.5)
+			rgba(255, 255, 255, 0.742),
+			rgba(0, 0, 0, 0.484)
 		),
-		url(https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+		url(https://www.juancmejia.com/wp-content/uploads/2017/04/Transformaci%C3%B3n-digital-en-el-ADN-de-la-empresa.jpg);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	height: calc(100vh - 50px);
 	justify-content: center;
 	color: white;
+	/* background-image: url(https://www.juancmejia.com/wp-content/uploads/2017/04/Transformaci%C3%B3n-digital-en-el-ADN-de-la-empresa.jpg); */
 }
 
 .logincontainer {
 	border: 1px solid #0000009e;
 	padding: 15px;
-	border-radius: 15px;
+	border-radius: 20px;
 	background-color: #0000009e;
 }
 
 .logintitle {
 	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .loginForm {
 	display: flex;
 	flex-direction: column;
 	margin-top: 20px;
-	width: 100%;
+	width: 250px;
 }
 
 .loginForm label {
@@ -44,6 +48,7 @@
 	font-size: 13px;
 	padding: 10px;
 	outline: none;
+	margin-bottom: 20px;
 }
 
 .loginFormbutton {
@@ -53,9 +58,9 @@
 	color: #fff;
 	cursor: pointer;
 	font-size: 13px;
-	margin-top: 20px;
 	padding: 10px;
 	text-align: center;
+	width: 100%;
 }
 
 .loginFormbutton:hover {

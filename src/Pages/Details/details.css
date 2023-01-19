@@ -1,0 +1,25 @@
+.detailsconteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    gap: 20px;
+}
+
+.detailsconteiner img{
+    width: 80%;
+    border-radius: 10px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.detailsconteiner p{
+    width: 80%;
+}
+
+.detailsbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}

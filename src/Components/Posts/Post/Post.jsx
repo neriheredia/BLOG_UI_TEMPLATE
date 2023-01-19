@@ -4,22 +4,11 @@ import './Post.css';
 function Post(props) {
 	return (
 		<div className='post'>
-			<NavLink className='title' to={'/post/' + props.id}>
-				<img className='postimg' src={props.image} alt='img' />
-				<br />
-				<div className='info'>
-					<div className='div'>
-						{props.category?.map((c, key) => (
-							<span key={key} className='category'>
-								{c}
-							</span>
-						))}
-					</div>
-					{props.title}
-					<br />
-					<span className='time'>{props.time}</span>
+			<NavLink  to={'/post/' + props.id}>
+				<div className='Link'>
+					<img className='postimg' src={props.imageUrl} alt='img' />
+					<h1 className='h1'>{props.author}</h1>
 				</div>
-				<p className='text'>{props.overview}</p>
 			</NavLink>
 		</div>
 	);
