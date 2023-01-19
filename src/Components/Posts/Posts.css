@@ -4,3 +4,9 @@
 	grid-template-columns: repeat(auto-fill, minmax(300px, auto));
 	margin: 20px;
 }
+
+.post-pagination{
+	display: flex;
+	flex-direction: column;
+
+}

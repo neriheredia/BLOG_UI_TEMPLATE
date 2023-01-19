@@ -12,3 +12,7 @@
 .categoriesbutton:hover {
 	background-color: rgb(255, 255, 255);
 }
+
+.categoriesbutton:focus{
+	background-color: rgb(206, 206, 206);
+}

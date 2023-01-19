@@ -3,35 +3,35 @@ import { context } from '../../App';
 import './categories.css';
 
 function Categories() {
-	const { setCategorie } = useContext(context);
+	const globalstate = useContext(context);
 	return (
-		<div className='categories'>
+		<div onClick={()=>globalstate.setPage({start: 0, end:6} )} className='categories'>
 			<button
-				onClick={() => setCategorie('business')}
+				onClick={() => globalstate.setCategorie('business')}
 				className='categoriesbutton'
 			>
 				Business
 			</button>
 			<button
-				onClick={() => setCategorie('technology')}
+				onClick={() => globalstate.setCategorie('technology')}
 				className='categoriesbutton'
 			>
 				Technology
 			</button>
 			<button
-				onClick={() => setCategorie('startup')}
+				onClick={() => globalstate.setCategorie('startup')}
 				className='categoriesbutton'
 			>
 				Startup
 			</button>
 			<button
-				onClick={() => setCategorie('science')}
+				onClick={() => globalstate.setCategorie('science')}
 				className='categoriesbutton'
 			>
 				Science
 			</button>
 			<button
-				onClick={() => setCategorie('world')}
+				onClick={() => globalstate.setCategorie('world')}
 				className='categoriesbutton'
 			>
 				World
