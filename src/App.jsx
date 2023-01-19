@@ -16,10 +16,10 @@ const App = () => {
 	const [state, setState] = useState(false); // logeado o no
 	const [news, setNews] = useState(false); // listado de news de categoria selec.
 	const [categorie, setCategorie] = useState('technology');
-	const [page, setPage] = useState({start: 0, end: 8}); // pagina de 8 news
+	const [page, setPage] = useState({ start: 0, end: 8 }); // pagina de 8 news
 
 	// Necesito que al cambiar de categoria no sea necesario consultar api y demorar
-	useEffect(()=>{
+	useEffect(() => {
 		Get(categorie)
 			.then(data => {
 				setNews(data);
@@ -27,12 +27,21 @@ const App = () => {
 			.catch(e => {
 				return <Home />;
 			});
-			console.log("Carga en App");
-	},[categorie])
+		console.log('Carga en App');
+	}, [categorie]);
 
 	return (
 		<context.Provider
-			value={{ state, setState, categorie, setCategorie, news, setNews, page, setPage }}
+			value={{
+				state,
+				setState,
+				categorie,
+				setCategorie,
+				news,
+				setNews,
+				page,
+				setPage,
+			}}
 		>
 			<BrowserRouter>
 				<Navbar />

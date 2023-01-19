@@ -5,8 +5,7 @@
 	margin: 20px;
 }
 
-.post-pagination{
+.post-pagination {
 	display: flex;
 	flex-direction: column;
-
 }
