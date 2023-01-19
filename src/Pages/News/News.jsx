@@ -6,7 +6,6 @@ import './News.css';
 function Home() {
 	return (
 		<div className='home'>
-			
 			<div>
 				<Categories />
 				<Posts />

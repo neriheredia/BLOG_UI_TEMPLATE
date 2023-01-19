@@ -2,8 +2,10 @@
 	font-size: 100px;
 	/* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
 	/* -webkit-text-stroke: 2px rgb(255, 255, 255); */
-	text-shadow: 2px 0 0 rgb(255, 255, 255), -2px 0 0 rgb(255, 255, 255), 0 2px 0 rgb(255, 255, 255), 0 -2px 0 rgb(255, 255, 255), 1px 1px rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
-
+	text-shadow: 2px 0 0 rgb(255, 255, 255), -2px 0 0 rgb(255, 255, 255),
+		0 2px 0 rgb(255, 255, 255), 0 -2px 0 rgb(255, 255, 255),
+		1px 1px rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255),
+		1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
 }
 
 .header {
@@ -20,30 +22,30 @@
 	width: 100%;
 }
 
-.img1{
+.img1 {
 	animation: slide;
 	animation-duration: 1.5s;
 	animation-direction: reverse;
 }
-@keyframes slide{
-	0%{
+@keyframes slide {
+	0% {
 		transform: translateX(0%);
 	}
-	100%{
+	100% {
 		transform: translateX(100%);
 	}
 }
 
-.img2{
+.img2 {
 	animation: slide2;
 	animation-duration: 1.5s;
 }
 
-@keyframes slide2{
-	0%{
+@keyframes slide2 {
+	0% {
 		transform: translateX(-100%);
 	}
-	100%{
+	100% {
 		transform: translateX(0%);
 	}
 }
@@ -61,5 +63,4 @@
 	position: absolute;
 	top: 0;
 	position: relative;
-
 }

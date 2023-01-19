@@ -1,4 +1,3 @@
-
 import './Favorites.css';
 
 function Favorites() {

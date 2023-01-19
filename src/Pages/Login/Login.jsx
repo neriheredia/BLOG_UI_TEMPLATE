@@ -5,7 +5,7 @@ import './Login.css';
 
 function Login() {
 	const state = useContext(context);
-	const navigate= useNavigate()
+	const navigate = useNavigate();
 	return (
 		<div className='login'>
 			<div className='logincontainer'>

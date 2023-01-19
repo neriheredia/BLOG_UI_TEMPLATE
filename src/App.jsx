@@ -15,17 +15,19 @@ export const context = createContext();
 const App = () => {
 	const [state, setState] = useState(false);
 	const [news, setNews] = useState(false);
-	const [categorie, setCategorie] = useState("technology")
+	const [categorie, setCategorie] = useState('technology');
 	return (
-		<context.Provider value={{ state, setState, categorie, setCategorie, news, setNews }}>
+		<context.Provider
+			value={{ state, setState, categorie, setCategorie, news, setNews }}
+		>
 			<BrowserRouter>
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />} />
-					<Route path='/news' element={state? <News /> : <Home />} />
+					<Route path='/news' element={state ? <News /> : <Home />} />
 					{/* <Route path='/about' element={<About />} /> */}
 					<Route path='/favorites' element={state ? <Favorites /> : <Home />} />
-					<Route path='/login' element={!state? <Login /> : <News />} />
+					<Route path='/login' element={!state ? <Login /> : <News />} />
 					<Route path='/register' element={<Register />} />
 					<Route path='/post/:id' element={<Details />} />
 				</Routes>

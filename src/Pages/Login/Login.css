@@ -1,9 +1,6 @@
 .login {
 	align-items: center;
-	background: linear-gradient(
-			rgba(255, 255, 255, 0.742),
-			rgba(0, 0, 0, 0.484)
-		),
+	background: linear-gradient(rgba(255, 255, 255, 0.742), rgba(0, 0, 0, 0.484)),
 		url(https://www.juancmejia.com/wp-content/uploads/2017/04/Transformaci%C3%B3n-digital-en-el-ADN-de-la-empresa.jpg);
 	background-size: cover;
 	display: flex;

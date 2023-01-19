@@ -8,7 +8,7 @@ function Center() {
 	return (
 		<div className='center'>
 			<NavLink to='/'>HOME</NavLink>
-			{state? <NavLink to='/news'>NEWS</NavLink> :null}
+			{state ? <NavLink to='/news'>NEWS</NavLink> : null}
 			{state ? <NavLink to='/favorites'>FAVORITES</NavLink> : null}
 		</div>
 	);
