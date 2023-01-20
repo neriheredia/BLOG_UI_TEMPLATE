@@ -14,18 +14,24 @@ export const context = createContext();
 
 const App = () => {
 	const [state, setState] = useState(false); // logeado o no
-	const theme=['technology','business','startup','science','world'];
+	const theme = ['technology', 'business', 'startup', 'science', 'world'];
 	const [categorie, setCategorie] = useState(theme[0]);
 	const [news, setNews] = useState([]); // sera un [{},{}]
 	const [page, setPage] = useState({ start: 0, end: 8 }); // pagina de 8 news
-	
+
 	useEffect(() => {
-		Get(categorie).then(data => {setNews(data);console.log("Data App");}).catch(e => {console.log('Error en API: '+categorie);});
+		Get(categorie)
+			.then(data => {
+				setNews(data);
+				console.log('Data App');
+			})
+			.catch(e => {
+				console.log('Error en API: ' + categorie);
+			});
 	}, [categorie]);
 
-	
-// necesito cargar todas las categorias por separado, corroborar si tiran error para volverse a cargar por separado
-// esto deberia hacerse en algun lugar que no haga re-renderizar el app, sino que se re-renderise solo la categoria que presenta el fallo
+	// necesito cargar todas las categorias por separado, corroborar si tiran error para volverse a cargar por separado
+	// esto deberia hacerse en algun lugar que no haga re-renderizar el app, sino que se re-renderise solo la categoria que presenta el fallo
 
 	return (
 		<context.Provider
