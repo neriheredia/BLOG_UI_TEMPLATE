@@ -6,7 +6,7 @@ import './Home.css';
 
 function Home() {
 	const globalstate = useContext(context);
-
+	// console.log("Carga de Home");
 	return (
 		<>
 			<div className='titles'>

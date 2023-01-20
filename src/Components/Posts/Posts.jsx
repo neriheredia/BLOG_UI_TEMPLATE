@@ -8,25 +8,12 @@ import Pagination from '../Pagination/Pagination';
 function Posts() {
 	const globalstate = useContext(context);
 
-	// useEffect(() => {
-	// 	Get(globalstate.categorie)
-	// 		.then(data => {
-	// 			globalstate.setNews(data);
-	// 		})
-	// 		.catch(e => {
-	// 			alert('Esta categoria no puede cargarse');
-	// 			return <Home />;
-	// 		});
-	// 		console.log("Carga en Post");
-	// }, [globalstate.categorie]);
-
 	if (!globalstate.news) return <Loading />;
-
 	return (
 		<div className='post-pagination'>
 			<Pagination />
 			<div className='posts'>
-				{globalstate.news.data
+				{globalstate.news?.data
 					.slice(globalstate.page.start, globalstate.page.end)
 					?.map(post => (
 						<Post
