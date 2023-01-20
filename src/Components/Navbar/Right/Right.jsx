@@ -23,13 +23,8 @@ function Rigth() {
 				<>
 					<NavLink to='/login'>LOGIN</NavLink>
 					<NavLink to='/register'>REGISTER</NavLink>{' '}
-					{/* <button onClick={()=>state.setState(true)}>ON</button> */}
 				</>
 			)}
-			<NavLink
-				to=''
-				className='topSearchIcon fas fa-search rigthcolor'
-			></NavLink>
 		</div>
 	);
 }
