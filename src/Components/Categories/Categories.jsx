@@ -6,7 +6,7 @@ function Categories() {
 	const globalstate = useContext(context);
 	return (
 		<div
-			onClick={() => globalstate.setPage({ start: 0, end: 6 })}
+			onClick={() => globalstate.setPage({ start: 0, end: 8 })}
 			className='categories'
 		>
 			<button

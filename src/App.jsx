@@ -30,9 +30,8 @@ const App = () => {
 			});
 	}, [categorie]);
 
-	// necesito cargar todas las categorias por separado, corroborar si tiran error para volverse a cargar por separado
-	// esto deberia hacerse en algun lugar que no haga re-renderizar el app, sino que se re-renderise solo la categoria que presenta el fallo
-
+	// que se carguen todas las apis en un vector y que luego se consulte ese vector en cada categoria
+	
 	return (
 		<context.Provider
 			value={{
