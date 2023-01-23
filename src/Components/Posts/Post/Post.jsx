@@ -14,10 +14,10 @@ function Post(props) {
 				globalstate.favorite.filter(id => id !== props.id)
 			);
 		} else {
-			globalstate.setFavorite([...globalstate.favorite, props.id]);
+			globalstate.setFavorite([...globalstate.favorite, props]);
 		}
-		console.log(globalstate.favorite);
 	};
+	console.log(globalstate.favorite);
 
 	return (
 		<div className='post'>
