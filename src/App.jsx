@@ -31,8 +31,6 @@ const App = () => {
 			});
 	}, [categorie]);
 
-	// que se carguen todas las apis en un vector y que luego se consulte ese vector en cada categoria
-
 	return (
 		<context.Provider
 			value={{

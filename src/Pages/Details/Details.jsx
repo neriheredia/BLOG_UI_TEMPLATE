@@ -12,11 +12,11 @@ function Details() {
 
 	return (
 		<div className='detailsconteiner'>
+			<img src={post[0].imageUrl} alt='' />
 			<h1>{post[0].title}</h1>
 			<p>
 				{post[0].date} at {post[0].time}
 			</p>
-			<img src={post[0].imageUrl} alt='' />
 			<p>{post[0].content}</p>
 			<div className='detailsbutton'>
 				<button onClick={() => window.open(post[0].readMoreUrl)}>

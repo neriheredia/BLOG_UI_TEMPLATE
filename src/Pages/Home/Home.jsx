@@ -11,7 +11,6 @@ function Home() {
 		<>
 			<div className='titles'>
 				<span className='blog'>NEWS</span>
-				<span className='reactNode'>Front-End with React</span>
 			</div>
 			<div className='header'>
 				<Link
