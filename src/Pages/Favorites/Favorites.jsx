@@ -10,8 +10,9 @@ function Favorites() {
 		console.log('change favorite app');
 	}, [globalstate.favorite]);
 
-	if(globalstate.favorite.length===0) return <div className='empty'>Empty</div>
-	
+	if (globalstate.favorite.length === 0)
+		return <div className='empty'>Empty</div>;
+
 	return (
 		<div className='favoritesconteiner'>
 			{globalstate.favorite?.map((id, index) => {

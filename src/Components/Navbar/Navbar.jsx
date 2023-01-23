@@ -7,18 +7,18 @@ function Top() {
 	const state = useContext(context);
 	return (
 		<div className='top'>
-			<button className='inclined-button'><NavLink  to='/'>
-				HOME
-			</NavLink></button>
+			<button className='inclined-button'>
+				<NavLink to='/'>HOME</NavLink>
+			</button>
 			{state.state ? (
-				<button className='inclined-button'><NavLink  to='/news'>
-					NEWS
-				</NavLink></button>
+				<button className='inclined-button'>
+					<NavLink to='/news'>NEWS</NavLink>
+				</button>
 			) : null}
 			{state.state ? (
-				<button className='inclined-button'><NavLink  to='/favorites'>
-					FAVORITES
-				</NavLink></button>
+				<button className='inclined-button'>
+					<NavLink to='/favorites'>FAVORITES</NavLink>
+				</button>
 			) : null}
 
 			{state.state ? (
@@ -29,12 +29,12 @@ function Top() {
 				</>
 			) : (
 				<>
-					<button className='inclined-button'><NavLink  to='/login'>
-						LOGIN
-					</NavLink></button>
-					<button className='inclined-button'><NavLink to='/register'>
-						REGISTER
-					</NavLink></button>
+					<button className='inclined-button'>
+						<NavLink to='/login'>LOGIN</NavLink>
+					</button>
+					<button className='inclined-button'>
+						<NavLink to='/register'>REGISTER</NavLink>
+					</button>
 				</>
 			)}
 		</div>
