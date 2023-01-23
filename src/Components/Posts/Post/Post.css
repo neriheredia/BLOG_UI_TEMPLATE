@@ -38,3 +38,24 @@
 	margin-left: 15px;
 	color: black;
 }
+
+.favorite{
+	width: 40px;
+	position: absolute;
+}
+
+.postbutton{
+	border-style: none;
+	position: absolute;
+}
+
+.favorite:hover{
+	border-style: solid;
+	border-image-width: 5px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 100%;
+}
+
+.favorite:active{
+	border-color: rgb(0, 0, 0);
+}

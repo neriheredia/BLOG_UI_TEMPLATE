@@ -3,6 +3,8 @@ import { useParams } from 'react-router-dom';
 import { context } from '../../App';
 import './details.css';
 
+// mediante el parametro busco la noticia en news para mostrarla y luego con el setPost cambio de noticia
+
 function Details() {
 	const { id } = useParams();
 	const { news } = useContext(context);

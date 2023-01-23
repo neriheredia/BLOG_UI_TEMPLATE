@@ -13,8 +13,8 @@ function Posts() {
 		<div className='post-pagination'>
 			<Pagination />
 			<div className='posts'>
-				{globalstate.news?.data
-					.slice(globalstate.page.start, globalstate.page.end)
+				{globalstate.news.data
+					?.slice(globalstate.page.start, globalstate.page.end)
 					?.map(post => (
 						<Post
 							author={post.title}

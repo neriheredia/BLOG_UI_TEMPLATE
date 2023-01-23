@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import { createContext, useEffect, useState } from 'react';
 import News from './Pages/News/News';
 import Navbar from './Components/Navbar/Navbar';
 import Favorites from './Pages/Favorites/Favorites';
 import Register from './Pages/Register/Register';
 import Login from './Pages/Login/Login';
 import Details from './Pages/Details/Details';
-import { createContext, useEffect, useState } from 'react';
 import Home from './Pages/Home/Home';
 import Get from './utilities/Get';
 
@@ -18,6 +18,8 @@ const App = () => {
 	const [categorie, setCategorie] = useState(theme[0]);
 	const [news, setNews] = useState([]); // sera un [{},{}]
 	const [page, setPage] = useState({ start: 0, end: 8 }); // pagina de 8 news
+	const [favorite, setFavorite] = useState([]);
+
 
 	useEffect(() => {
 		Get(categorie)
@@ -44,6 +46,8 @@ const App = () => {
 				page,
 				setPage,
 				theme,
+				setFavorite,
+				favorite,
 			}}
 		>
 			<BrowserRouter>

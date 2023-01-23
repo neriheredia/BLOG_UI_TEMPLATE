@@ -3,6 +3,13 @@
 	justify-content: space-around;
 }
 
+@media (max-width: 500px){
+	.categories{
+		flex-direction: column;
+		display: none;
+	}
+}
+
 .categoriesbutton {
 	padding: 10px;
 	width: 100%;
