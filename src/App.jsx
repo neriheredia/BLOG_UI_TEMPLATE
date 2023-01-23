@@ -20,7 +20,6 @@ const App = () => {
 	const [page, setPage] = useState({ start: 0, end: 8 }); // pagina de 8 news
 	const [favorite, setFavorite] = useState([]);
 
-
 	useEffect(() => {
 		Get(categorie)
 			.then(data => {
