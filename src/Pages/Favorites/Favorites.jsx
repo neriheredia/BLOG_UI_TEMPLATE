@@ -11,11 +11,9 @@ function Favorites() {
 	}, [globalstate.favorite]);
 
 	return (
-		<div className='writeconteiner'>
+		<div className='favoritesconteiner'>
 			{globalstate.favorite?.map((id, index) => {
 				const fav = globalstate.news.data.filter(index => index.id === id);
-				console.log(globalstate.news.data);
-				console.log(fav);
 				if (globalstate.news.data) {
 					return (
 						<Post
