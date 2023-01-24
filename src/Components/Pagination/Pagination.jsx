@@ -7,7 +7,7 @@ function Pagination() {
 
 	return (
 		<div className='pagination'>
-			<button
+			<button className='buttonleft'
 				onClick={() =>
 					globalstate.page.start === 0
 						? null
@@ -20,7 +20,7 @@ function Pagination() {
 				Previous
 			</button>
 
-			<button
+			<button className='buttonrigth'
 				onClick={() =>
 					globalstate.page.end >= globalstate.news.data.length
 						? null

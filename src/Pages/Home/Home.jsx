@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { context } from '../../App';
+import Categories from '../../Components/Categories/Categories';
 
 import './Home.css';
 
@@ -9,8 +10,10 @@ function Home() {
 	// console.log("Carga de Home");
 	return (
 		<>
+			<Categories />
+
 			<div className='titles'>
-				<span className='blog'>NEWS</span>
+				<span className='blog'>-NEWS-</span>
 			</div>
 			<div className='header'>
 				<Link

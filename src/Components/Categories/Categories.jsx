@@ -4,12 +4,17 @@ import './categories.css';
 
 function Categories() {
 	const globalstate = useContext(context);
+
+	if(globalstate.menu){
 	return (
 		<div
 			onClick={() => {
 				globalstate.setPage({ start: 0, end: 8 });
 				globalstate.setFavorite([]);
+				globalstate.setOut(!globalstate.out);
+				globalstate.setMenu(false);
 			}}
+			// className={globalstate.out?'categories-out':'categories'}
 			className='categories'
 		>
 			<button
@@ -43,6 +48,6 @@ function Categories() {
 				World
 			</button>
 		</div>
-	);
+	)}
 }
 export default Categories;

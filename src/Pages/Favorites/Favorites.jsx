@@ -1,7 +1,9 @@
 import { useContext, useEffect } from 'react';
+import { Navigate } from 'react-router-dom';
 import { context } from '../../App';
 import Post from '../../Components/Posts/Post/Post';
 import './Favorites.css';
+
 
 function Favorites() {
 	const globalstate = useContext(context);
@@ -11,7 +13,7 @@ function Favorites() {
 	}, [globalstate.favorite]);
 
 	if (globalstate.favorite.length === 0)
-		return <div className='empty'>Empty</div>;
+		return <Navigate to='/news'/>;
 
 	return (
 		<div className='favoritesconteiner'>
