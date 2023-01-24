@@ -13,7 +13,7 @@ function Home() {
 			<Categories />
 
 			<div className='titles'>
-				<span className='blog'>-NEWS-</span>
+				<span className='blog'>NEWS</span>
 			</div>
 			<div className='header'>
 				<Link

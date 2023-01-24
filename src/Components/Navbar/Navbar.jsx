@@ -48,10 +48,10 @@ function Top() {
 			) : (
 				<>
 					<NavLink to='/login'>
-						<button className='inclined-button'>LOGIN</button>
+						<button className='inclined-button'>LOG IN</button>
 					</NavLink>
 					<NavLink to='/register'>
-						<button className='inclined-button'>REGISTER</button>
+						<button className='inclined-button'>SING UP</button>
 					</NavLink>
 				</>
 			)}
