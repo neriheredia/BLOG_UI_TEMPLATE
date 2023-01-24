@@ -55,6 +55,12 @@ function Top() {
 					</NavLink>
 				</>
 			)}
+			<button
+				onClick={()=>window.open('https://walink.co/2e3987')}
+				className='inclined-button'
+			>
+				<i className='fab fa-whatsapp'></i>
+			</button>
 		</div>
 	);
 }
