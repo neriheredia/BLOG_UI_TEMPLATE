@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function Register() {
 	return (
@@ -12,7 +12,9 @@ function Register() {
 					<input type='password' placeholder='Enter your password...' />
 					<label htmlFor=''>Repeat password</label>
 					<input type='password' placeholder='Enter your password...' />
-					<Link to='/login'><button className='loginFormbutton'>Register</button></Link>
+					<Link to='/login'>
+						<button className='loginFormbutton'>Register</button>
+					</Link>
 				</form>
 			</div>
 		</div>
