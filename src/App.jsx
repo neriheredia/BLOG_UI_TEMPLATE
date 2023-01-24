@@ -20,7 +20,7 @@ const App = () => {
 	const [page, setPage] = useState({ start: 0, end: 8 }); // pagina de 8 news
 	const [favorite, setFavorite] = useState([]);
 	const [menu, setMenu] = useState(false);
-	const [out, setOut] = useState(true)
+	const [out, setOut] = useState(true);
 
 	useEffect(() => {
 		Get(categorie)
@@ -50,7 +50,7 @@ const App = () => {
 				setMenu,
 				menu,
 				setOut,
-				out
+				out,
 			}}
 		>
 			<BrowserRouter>

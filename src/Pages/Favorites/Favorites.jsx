@@ -4,7 +4,6 @@ import { context } from '../../App';
 import Post from '../../Components/Posts/Post/Post';
 import './Favorites.css';
 
-
 function Favorites() {
 	const globalstate = useContext(context);
 
@@ -12,8 +11,7 @@ function Favorites() {
 		console.log('change favorite app');
 	}, [globalstate.favorite]);
 
-	if (globalstate.favorite.length === 0)
-		return <Navigate to='/news'/>;
+	if (globalstate.favorite.length === 0) return <Navigate to='/news' />;
 
 	return (
 		<div className='favoritesconteiner'>

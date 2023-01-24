@@ -5,11 +5,11 @@
 	animation-duration: 0.5s;
 }
 
-@keyframes categorie{
-	0%{
+@keyframes categorie {
+	0% {
 		transform: translateY(-100%);
 	}
-	100%{
+	100% {
 		transform: translateY(0%);
 	}
 }

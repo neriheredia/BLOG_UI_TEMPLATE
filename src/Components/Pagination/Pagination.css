@@ -12,20 +12,20 @@
 	border-width: 1px;
 }
 
-.buttonleft{
+.buttonleft {
 	border-radius: 20px 0px 0px 20px;
 }
 
-.buttonleft:hover{
+.buttonleft:hover {
 	background-color: gainsboro;
 }
 
-.buttonrigth{
+.buttonrigth {
 	border-radius: 0px 20px 20px 0px;
 	/* clip-path: polygon(0% 00%, 0% 0%, 0% 0%, 50% 50%); */
 	/* border-end-end-radius: 10px; */
 }
 
-.buttonrigth:hover{
+.buttonrigth:hover {
 	background-color: gainsboro;
 }

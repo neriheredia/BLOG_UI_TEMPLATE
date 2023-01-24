@@ -19,7 +19,10 @@ function Top() {
 			) : null}
 			{state.state ? (
 				<button
-					onClick={() => {state.setMenu(!state.menu); state.setOut(!state.out)}}
+					onClick={() => {
+						state.setMenu(!state.menu);
+						state.setOut(!state.out);
+					}}
 					className='inclined-button'
 				>
 					<i className='fas fa-bars'></i>

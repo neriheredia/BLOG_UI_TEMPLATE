@@ -11,8 +11,8 @@
 	flex-direction: column;
 }
 
-@media (max-width: 500px){
-	.post-pagination{
+@media (max-width: 500px) {
+	.post-pagination {
 		flex-direction: column-reverse;
 	}
 }
